@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: $font-color;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.h1 {
+  font-size: 2.75rem;
+  line-height: 1.36;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: #fff;
+  text-align: center;
+  max-width: 25ch;
+}
+
+.h3 {
+  font-size: 0.875rem;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  &--white {
+    color: #fff;
+  }
+}
+
+.h2 {
+  font-size: 2.25rem;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
