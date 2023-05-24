@@ -8,4 +8,14 @@
   max-width: 100%;
   gap: 30px;
   padding: 200px;
+
+  &__title {
+    font-size: 2.75rem;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-align: center;
+    max-width: 25ch;
+  }
 }

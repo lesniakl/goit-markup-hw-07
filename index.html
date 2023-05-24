@@ -64,7 +64,7 @@
 
     <main>
       <section class="container container--column hero">
-        <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1 class="hero__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button data-modal-open class="btn hero__btn" type="button">
           Zamów usługę
         </button>
@@ -76,79 +76,78 @@
               </svg>
             </button>
             <h2 class="modal__h2">Zostaw swoje dane w formularzu poniżej</h2>
-
-            <form name="contact-form" class="modal__form">
-              <label for="client-name" class="modal__label">
+            <form name="contact-form" class="contact-form">
+              <label for="client-name" class="contact-form__label">
                 Imie
-                <label class="modal__control">
-                  <svg class="modal__icon">
+                <label class="contact-form__control">
+                  <svg class="contact-form__icon">
                     <use href="./images/sprite.svg#icon-person"></use>
                   </svg>
                   <input
                     type="text"
                     name="client-name"
                     id="client-name"
-                    class="modal__input"
+                    class="contact-form__input"
                   />
                 </label>
               </label>
-              <label for="client-phone" class="modal__label">
+              <label for="client-phone" class="contact-form__label">
                 Telefon
-                <label class="modal__control">
-                  <svg class="modal__icon">
+                <label class="contact-form__control">
+                  <svg class="contact-form__icon">
                     <use href="./images/sprite.svg#icon-phone-black"></use>
                   </svg>
                   <input
                     type="tel"
                     name="client-phone"
                     id="client-phone"
-                    class="modal__input"
+                    class="contact-form__input"
                   />
                 </label>
               </label>
-              <label for="client-email" class="modal__label">
+              <label for="client-email" class="contact-form__label">
                 Email
-                <label class="modal__control">
-                  <svg class="modal__icon">
+                <label class="contact-form__control">
+                  <svg class="contact-form__icon">
                     <use href="./images/sprite.svg#icon-email-black"></use>
                   </svg>
                   <input
                     type="email"
                     name="client-email"
                     id="client-email"
-                    class="modal__input"
+                    class="contact-form__input"
                   />
                 </label>
               </label>
-              <label class="modal__label">
+              <label class="contact-form__label">
                 Komentarz
                 <textarea
                   name="client-msg"
-                  class="modal__msg"
+                  class="contact-form__msg"
                   placeholder="Wprowadź tekst"
                   rows="7"
                 ></textarea>
               </label>
-              <div class="modal__terms">
-                <div class="modal__checkbox-control">
+              <div class="terms">
+                <div class="terms__checkbox-control">
                   <input
                     type="checkbox"
                     name="client-agree"
-                    class="modal__checkbox-input"
+                    class="terms__checkbox-input"
                     value="1"
                     id="client-agree"
                     required
                   />
-                  <label for="client-agree" class="modal__checkbox-label">
-                    <svg class="modal__icon-check">
+                  <label for="client-agree" class="terms__checkbox-label">
+                    <svg class="terms__icon-check">
                       <use href="./images/sprite.svg#icon-check"></use>
                     </svg>
                   </label>
                 </div>
                 <span
                   >Oświadczam iż akceptuję
-                  <a href="./" target="_blank" class="link modal__link">Regulamin</a> i
-                  <a href="./" target="_blank" class="link modal__link">Politykę Prywatności.</a></span
+                  <a href="./" target="_blank" class="link terms__link">Regulamin</a> i
+                  <a href="./" target="_blank" class="link terms__link">Politykę Prywatności.</a></span
                 >
               </div>
               <button type="submit" class="btn btn--modal">Wyślij</button>
@@ -218,7 +217,7 @@
             </li>
           </ul>
         </div>
-        <h2 class="h2">Czym się zajmujemy</h2>
+        <h2 class="section__title">Czym się zajmujemy</h2>
         <div class="container container--column">
           <ul class="grid">
             <li class="skills">
@@ -255,7 +254,7 @@
       </section>
 
       <section class="section section--bg-accent1">
-        <h2 class="h2">Nasz zespół</h2>
+        <h2 class="section__title">Nasz zespół</h2>
         <div class="container container--column">
           <ul class="grid">
             <li>
@@ -494,7 +493,7 @@
         </div>
       </section>
       <section class="section">
-        <h2 class="h2">Nasi klienci</h2>
+        <h2 class="section__title">Nasi klienci</h2>
         <div class="container container--column">
           <div class="grid">
             <a
